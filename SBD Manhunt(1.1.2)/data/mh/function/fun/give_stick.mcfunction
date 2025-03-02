@@ -1,0 +1,1 @@
+give @s stick[consumable={consume_seconds:1,animation:"block"},food={nutrition:0,saturation:0,can_always_eat:true},custom_data={edible:true}] 1
