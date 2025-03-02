@@ -1,0 +1,1 @@
+give @a[team=Hunter] compass[custom_name='{"color":"aqua","italic":false,"text":"Tracker Compass"}'] 1

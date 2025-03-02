@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": "minecraft:stick",
+					"components": {
+						"minecraft:custom_data": {"edible":true}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "mh:fun/change_gamemode"
+	}
+}

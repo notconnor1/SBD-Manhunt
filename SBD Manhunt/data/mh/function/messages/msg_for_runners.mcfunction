@@ -1,0 +1,1 @@
+tellraw @a[scores={JoinAsRunner=1}] ["",{"text":"You are in a ","bold":true,"color":"white"},{"text":"Runners","bold":true,"italic":true,"underlined":true,"color":"dark_red"},{"text":" Team now!","bold":true,"color":"white"}]
