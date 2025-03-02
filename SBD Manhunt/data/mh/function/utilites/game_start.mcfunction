@@ -26,4 +26,11 @@ function mh:compass/give_compass
 scoreboard players set @a StartGame 0
 trigger StartGame set 0
 
-tellraw @a "игра началась сучки"
+# Chat messages
+playsound minecraft:block.note_block.hat
+playsound minecraft:entity.player.levelup
+
+
+title @a title {"text":"Game has Started...","bold":true,"color":"gold"}
+playsound minecraft:block.note_block.hat master @a ~ ~ ~ 1 1 1 
+playsound minecraft:entity.player.levelup master @a ~ ~ ~ 1 1 1 

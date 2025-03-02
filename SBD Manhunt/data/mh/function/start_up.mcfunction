@@ -27,6 +27,8 @@ scoreboard objectives add Tick dummy "Ticks"
 scoreboard players set Secs Sec 0
 scoreboard players set Mins Min 0
 
+scoreboard objectives add reload trigger
+
 # Forceload
 execute in minecraft:overworld run forceload add 0 0
 execute in minecraft:the_nether run forceload add 0 0
@@ -52,6 +54,8 @@ schedule function mh:messages/greeting 1t
 schedule function mh:compass/recover_compass 1t
 
 schedule function mh:messages/message_loop 1t
+
+schedule function mh:fun/tittle 120s
 
 #Chat Greeting
 #tellraw @a "SBD Manhunt Datapack is loaded!"
