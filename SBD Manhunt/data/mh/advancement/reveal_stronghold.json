@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:story/enter_the_end",
+    "criteria": {
+      "in_stronghold": {
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "team": "Runner",
+                "location": {
+                  "structures": "minecraft:stronghold",
+                  "dimension": "minecraft:overworld"
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:location"
+      }
+    },
+    "requirements": [
+      [
+        "in_stronghold"
+      ]
+    ],
+    "rewards": {
+      "function": "mh:utilites/reveal_stronghold"
+    },
+    "sends_telemetry_event": false
+  }

@@ -1,7 +1,6 @@
 # Form teams
 execute run team join Runner @a[tag=AddRunner]
-#team join Runner @a[scores={JoinAsRunner=1..}]
-team join Hunter @a[team=!Runner]
+team join Hunter @a[tag=!AddRunner]
 
 # Start Timer
 schedule function mh:utilites/timer 1t

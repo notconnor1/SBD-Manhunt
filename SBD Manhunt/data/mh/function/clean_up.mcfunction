@@ -1,4 +1,4 @@
-# Remove dependencies in case of /reload
+# Remove dependencies for clean load
 team remove Hunter
 team remove Runner
 scoreboard objectives remove Deaths
