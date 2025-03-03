@@ -1,1 +1,1 @@
-description said it all.
+description says it all.
