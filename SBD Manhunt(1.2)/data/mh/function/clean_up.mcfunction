@@ -10,11 +10,20 @@ scoreboard players reset @a JoinAsRunner
 scoreboard objectives remove StartGame
 scoreboard players reset @a StartGame
 
-scoreboard objectives remove MessageCounter
+tag @a remove AddRunner
 
 scoreboard players reset Ticks
 scoreboard players reset Secs
 scoreboard players reset Ticks
+scoreboard players reset Hours
+
+scoreboard objectives remove X
+scoreboard objectives remove Y
+scoreboard objectives remove Z
+
+scoreboard objectives remove reload
+
+advancement revoke @a everything
 
 execute in minecraft:overworld run forceload remove 0 0
 execute in minecraft:the_end run forceload remove 0 0

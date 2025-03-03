@@ -1,0 +1,1 @@
+tellraw @a[team=Hunter] ["",{"text":"[ "},{"text":"Closest Teammate at:"},{"text":" : "},{"score":{"name":"@e[team=Hunter, sort=nearest,limit=1]","objective":"X"}},{"text":" : "},{"score":{"name":"@e[team=Hunter,sort=nearest,limit=1]","objective":"Y"}},{"text":" : "},{"score":{"name":"@e[team=Hunter, sort=nearest,limit=1]","objective":"Z"}},{"text":" ]"}]

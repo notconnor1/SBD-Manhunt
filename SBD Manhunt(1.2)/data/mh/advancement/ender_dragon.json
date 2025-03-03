@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirment": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "player": {
+          "team": "Runner",
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mh:messages/game_over_runners"
+  }
+}
